@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=freescales.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\freescales -TC:\CooCox\CoIDE\configuration\ProgramData\freescales/arm-gcc-link.ld -g">
+      <target file="freescales.elf" lastModified="149e353b87b">
+         <source file="..\obj\fonction_temporaire2.o" lastModified="149e1f6448f"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="149e1f6456a"/>
+         <source file="..\obj\main.o" lastModified="149e353b5d2"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="149e1f647ac"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="149e1f64904"/>
+         <source file="..\obj\driver_timer.o" lastModified="149e1f649de"/>
+         <source file="..\obj\traitement.o" lastModified="149e1f64a4c"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="149e1f64b55"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="149e1f9cd0b"/>
+         <source file="..\obj\fonction_temporaire.o" lastModified="149e1f64cfb"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="149e1f64f0f"/>
+      </target>
+   </processor>
+</history>
